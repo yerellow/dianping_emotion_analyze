@@ -4,7 +4,7 @@ import json
 
 # 高德API Key
 def search_nearby(location, keyword):
-    api_key = '90522de4300cbc5322bac00172226261'
+    api_key = '换成你自己的，可以上咸鱼买'
     radius = 1000
     url = f'https://restapi.amap.com/v3/place/around?key={api_key}&location={location}&keywords={keyword}&radius={radius}&output=JSON'
     response = requests.get(url)
@@ -18,7 +18,7 @@ def search_nearby(location, keyword):
 
 
 def search():
-    api_key = '90522de4300cbc5322bac00172226261'
+    api_key = '换成你自己的，可以上咸鱼买'
 
     # POI类型
     poi_type = '080300'
