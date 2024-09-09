@@ -3,8 +3,8 @@ import json
 from pymongo import MongoClient
 import time
 
-API_KEY = "6f461sqsxQhz01I3uM8wn36H"
-SECRET_KEY = "IRAM04UwPTTOnBs5MDRqUG4SKNP377Zx"
+API_KEY = "改成你自己"
+SECRET_KEY = "改成你自己"
 
 
 # 1. 获取百度AI情感分析的Access Token
