@@ -1,0 +1,6 @@
+// JOYPOLIS上海世嘉都市乐园
+python main.py --normal 0 --detail 0 --review 1 --shop_id G4TFU507X7tfV34H --need_more False
+// 汤姆熊欢乐世界(新世界店)
+python main.py --normal 0 --detail 0 --review 1 --shop_id G7yoIEgs1f6TE2Ji --need_more False
+
+'http://www.dianping.com/search/keyword/' + str(city_id) + '/' + str(channel_id) + '_' + str(keyword) + '/p'
