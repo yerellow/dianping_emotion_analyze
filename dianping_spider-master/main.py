@@ -50,7 +50,7 @@ if __name__ == '__main__':
     result = collection.find()
     i = 1
     for r in result:
-        if i >4:
+        if i < 100:   #如果中途报错了，可以修改这里跳过已经查询过的
             print(r['name'])
             controller = Controller(r['name'])
             if args.normal == 1:
